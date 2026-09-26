@@ -1,6 +1,6 @@
 <div align="center">
 
-# Basma Nageh Abouzied
+# Basma Abouzied
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=8B5CF6&center=true&vCenter=true&width=560&lines=Self-taught+AI+builder;Agents+with+memory+and+rules;I+don't+use+AI+tools.+I+wire+them+together." alt="Self-taught AI builder." />
 
