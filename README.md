@@ -28,7 +28,7 @@ flowchart LR
     Tools --> Notion[Notion]
     Tools --> Web[Browser automation]
     Agent --> Dash[Live dashboard]
-    Agent -. next .-> Jev{{Jev decision layer}}
+    Agent --> Jev{{Jev decision layer}}
 ```
 
 ## ✅ Shipped
@@ -36,6 +36,7 @@ flowchart LR
 | Project | Why it matters |
 |---|---|
 | **[Chief-of-staff starter](https://github.com/BasmaAbouzied0/claude-chief-of-staff)** | Open-source kit that gives any Claude Code user a persistent, rule-bound agent in 10 minutes |
+| **[jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve)** | Claude Code hook where Jev approves read-only commands in milliseconds and everything else still asks. 0 of 8 risky commands approved in testing |
 | **Personal AI agent** | Persistent memory, a fixed startup routine, rules it can't break, and skills written in my own voice. It boots as the same colleague every session |
 | **Data dashboard** | A Python pipeline turns spreadsheets into one self-contained app built from a templated design system |
 | **Knowledge vault** | Linked notes and daily logs under git. The agent reads it on boot and writes back to it |
@@ -43,7 +44,6 @@ flowchart LR
 | **Study engine** | Turns raw source material into structured exam study documents |
 
 ## 🔨 Building now
-- **Jev decision layer** : sub-second typed checks inside my agent for routing, triage and compliance gates
 - **Open-sourcing my skills** : the reusable ones, stripped of anything personal
 
 ## 📚 Learning log
@@ -51,7 +51,7 @@ flowchart LR
 - [x] MCP servers: connecting an agent to real tools
 - [x] Python data pipelines for dashboards
 - [x] Shipping open source on GitHub
-- [ ] Jev typed decisions (Choice, Score, yes/no)
+- [x] Jev typed decisions (Choice, Score, yes/no)
 - [ ] GitHub Actions for self-updating content
 
 ## 🛠 Stack
