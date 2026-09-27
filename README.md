@@ -37,6 +37,7 @@ flowchart LR
 |---|---|
 | **[Chief-of-staff starter](https://github.com/BasmaAbouzied0/claude-chief-of-staff)** | Open-source kit that gives any Claude Code user a persistent, rule-bound agent in 10 minutes |
 | **[jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve)** | Claude Code hook where Jev approves read-only commands in milliseconds and everything else still asks. 0 of 8 risky commands approved in testing |
+| **[jev-secret-guard](https://github.com/BasmaAbouzied0/jev-secret-guard)** | Stops an agent from writing or sending secrets. Jev judges unknown strings masked, so the check never leaks. 6 of 6 secrets blocked in testing |
 | **Personal AI agent** | Persistent memory, a fixed startup routine, rules it can't break, and skills written in my own voice. It boots as the same colleague every session |
 | **Data dashboard** | A Python pipeline turns spreadsheets into one self-contained app built from a templated design system |
 | **Knowledge vault** | Linked notes and daily logs under git. The agent reads it on boot and writes back to it |
