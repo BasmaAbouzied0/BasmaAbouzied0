@@ -6,6 +6,7 @@ I build free, open-source add-ons for **Claude Code**: hooks, skills and agent s
 
 | If you want... | Use this |
 |---|---|
+| Claude to write English you can read on the first try | **[english-is-my-second-language](https://github.com/BasmaAbouzied0/english-is-my-second-language)**: a Claude skill for non-native English readers. Plain words, short literal sentences, no idioms. |
 | Claude Code to remember you between sessions | **[claude-chief-of-staff](https://github.com/BasmaAbouzied0/claude-chief-of-staff)**: persistent memory in an Obsidian vault, a `CLAUDE.md` boot file and hard rules. The same assistant every session. |
 | Fewer permission prompts, safely | **[jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve)**: a Claude Code hook that approves read-only shell commands in milliseconds. Everything else still asks you. |
 | Your agent to never leak a password or API key | **[jev-secret-guard](https://github.com/BasmaAbouzied0/jev-secret-guard)**: a Claude Code hook that blocks secrets before they are written, committed or sent. |
