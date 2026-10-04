@@ -1,59 +1,24 @@
-<div align="center">
+# Hi, I'm Basma Abouzied
 
-# Basma Abouzied
+I build free, open-source add-ons for **Claude Code**: hooks, skills and agent setups you can install in a few minutes. I am self-taught and I am not a developer, so everything here is written to be understood without one.
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=8B5CF6&center=true&vCenter=true&width=560&lines=Self-taught+AI+builder;Agents+with+memory+and+rules;I+don't+use+AI+tools.+I+wire+them+together." alt="Self-taught AI builder." />
+## Start here
 
-**I build a personal AI operating system on Claude Code: an agent with memory, rules and custom skills, wired into my email, calendar, notes and browser.**
-
-</div>
-
----
-
-## ⭐ Featured
-
-### [claude-chief-of-staff](https://github.com/BasmaAbouzied0/claude-chief-of-staff)
-Turn Claude Code into a personal chief of staff: persistent memory in an Obsidian vault, a boot routine, and hard rules that stop the classic agent mistakes. The open version of the system I run my own work on.
-
-## ⚡ The system I run on
-
-```mermaid
-flowchart LR
-    Me((Me)) --> Agent[Claude Code agent]
-    Agent --> Memory[(Git-versioned<br/>knowledge vault)]
-    Agent --> Tools[60+ plugins<br/>& MCP servers]
-    Agent --> Hooks[Custom hooks<br/>& skills]
-    Tools --> Mail[Outlook]
-    Tools --> Cal[Calendar]
-    Tools --> Notion[Notion]
-    Tools --> Web[Browser automation]
-    Agent --> Dash[Live dashboard]
-    Agent --> Jev{{Jev decision layer}}
-```
-
-## ✅ Shipped
-
-| Project | Why it matters |
+| If you want... | Use this |
 |---|---|
-| **[Chief-of-staff starter](https://github.com/BasmaAbouzied0/claude-chief-of-staff)** | Open-source kit that gives any Claude Code user a persistent, rule-bound agent in 10 minutes |
-| **[jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve)** | Claude Code hook where Jev approves read-only commands in milliseconds and everything else still asks. 0 of 8 risky commands approved in testing |
-| **[jev-secret-guard](https://github.com/BasmaAbouzied0/jev-secret-guard)** | Stops an agent from writing or sending secrets. Jev judges unknown strings masked, so the check never leaks. 6 of 6 secrets blocked in testing |
-| **Personal AI agent** | Persistent memory, a fixed startup routine, rules it can't break, and skills written in my own voice. It boots as the same colleague every session |
-| **Data dashboard** | A Python pipeline turns spreadsheets into one self-contained app built from a templated design system |
-| **Knowledge vault** | Linked notes and daily logs under git. The agent reads it on boot and writes back to it |
-| **Workflow skills** | Reusable agent skills that draft, format and send recurring emails exactly to spec |
-| **Study engine** | Turns raw source material into structured exam study documents |
+| Claude Code to remember you between sessions | **[claude-chief-of-staff](https://github.com/BasmaAbouzied0/claude-chief-of-staff)**: persistent memory in an Obsidian vault, a `CLAUDE.md` boot file and hard rules. The same assistant every session. |
+| Fewer permission prompts, safely | **[jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve)**: a Claude Code hook that approves read-only shell commands in milliseconds. Everything else still asks you. |
+| Your agent to never leak a password or API key | **[jev-secret-guard](https://github.com/BasmaAbouzied0/jev-secret-guard)**: a Claude Code hook that blocks secrets before they are written, committed or sent. |
 
-## 🔨 Building now
-- **Open-sourcing my skills** : the reusable ones, stripped of anything personal
+## New to Claude Code? The words, in plain English
 
-## 📚 Learning log
-- [x] Claude Code hooks, skills and plugins
-- [x] MCP servers: connecting an agent to real tools
-- [x] Python data pipelines for dashboards
-- [x] Shipping open source on GitHub
-- [x] Jev typed decisions (Choice, Score, yes/no)
-- [ ] GitHub Actions for self-updating content
+- **Skill**: a file of instructions Claude loads when a task needs it.
+- **Hook**: a small script that runs automatically before or after Claude acts. Good for safety rules.
+- **MCP server**: a connector that lets Claude use a real tool, like email, a calendar or a browser.
+- **CLAUDE.md**: the file Claude reads at the start of every session. Your standing instructions live there.
 
-## 🛠 Stack
-`Claude Code` `MCP` `Python` `JavaScript` `HTML/CSS` `Git` `Obsidian` `Notion`
+## What I work with
+
+`Claude Code` `Claude skills` `Claude Code hooks` `MCP` `AI agents` `Obsidian` `Python`
+
+Everything is MIT licensed. If something is unclear or broken, open an issue on the repo and I will answer.
